@@ -1,0 +1,23 @@
+.welcome {
+    background-image: url('./assets/images/welcome-Image.png');
+}
+
+.meds {
+    background-image: url('./assets/images/footer-img.png');
+}
+
+.login-image {
+    background-image: url('./assets/images/login-img.jpeg');
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 768px) {
+    .welcome {
+        /* styles for smaller screens */
+    }
+
+    .meds {
+        /* styles for smaller screens */
+    }
+}
+   
